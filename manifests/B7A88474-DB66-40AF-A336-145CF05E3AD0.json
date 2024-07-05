@@ -1,0 +1,70 @@
+{
+  "type" : "Manifest",
+  "label" : {
+    "en" : [
+      "New scene 2"
+    ]
+  },
+  "id" : "https://mikeapp.github.io/iiif3d/manifests/B7A88474-DB66-40AF-A336-145CF05E3AD0.json",
+  "@context" : "http://iiif.io/api/presentation/4/context.json",
+  "items" : [
+    {
+      "items" : [
+        {
+          "id" : "https://mikeapp.github.io/iiif3d/manifests/B7A88474-DB66-40AF-A336-145CF05E3AD0/annotationPage1",
+          "type" : "AnnotationPage",
+          "items" : [
+            {
+              "body" : {
+                "type" : "SpecificResource",
+                "transform" : [
+                  {
+                    "x" : -11,
+                    "y" : -4,
+                    "z" : -139,
+                    "type" : "RotateTransform"
+                  }
+                ],
+                "source" : [
+                  {
+                    "id" : "https://3d-api.si.edu/content/document/3d_package:d8c62be8-4ebc-11ea-b77f-2e728ce88125/resources/cosmic-buddha-150k-150k.usdz",
+                    "type" : "Model"
+                  }
+                ]
+              },
+              "type" : "Annotation",
+              "motivation" : [
+                "painting"
+              ],
+              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/0",
+              "target" : {
+                "selector" : [
+                  {
+                    "x" : 1.0471252202987671,
+                    "type" : "PointSelector",
+                    "z" : -5.5363812446594238,
+                    "y" : 1.901519775390625
+                  }
+                ],
+                "source" : [
+                  {
+                    "type" : "Scene",
+                    "id" : "https://mikeapp.github.io/iiif3d/manifests/B7A88474-DB66-40AF-A336-145CF05E3AD0.json"
+                  }
+                ],
+                "type" : "SpecificResource"
+              }
+            }
+          ]
+        }
+      ],
+      "label" : {
+        "en" : [
+          "New scene 2"
+        ]
+      },
+      "id" : "https://mikeapp.github.io/iiif3d/manifests/B7A88474-DB66-40AF-A336-145CF05E3AD0.json",
+      "type" : "Scene"
+    }
+  ]
+}

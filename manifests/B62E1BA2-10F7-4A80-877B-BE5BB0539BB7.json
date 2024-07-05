@@ -1,0 +1,193 @@
+{
+  "label" : {
+    "en" : [
+      "My demo scene"
+    ]
+  },
+  "@context" : "http://iiif.io/api/presentation/4/context.json",
+  "items" : [
+    {
+      "items" : [
+        {
+          "items" : [
+            {
+              "type" : "Annotation",
+              "target" : {
+                "selector" : [
+                  {
+                    "y" : 9.3223419189453125,
+                    "type" : "PointSelector",
+                    "x" : 7.5051937103271484,
+                    "z" : -9.0957365036010742
+                  }
+                ],
+                "source" : [
+                  {
+                    "type" : "Scene",
+                    "id" : "https://mikeapp.github.io/iiif3d/manifests/B62E1BA2-10F7-4A80-877B-BE5BB0539BB7.json"
+                  }
+                ],
+                "type" : "SpecificResource"
+              },
+              "motivation" : [
+                "painting"
+              ],
+              "body" : {
+                "type" : "SpecificResource",
+                "source" : [
+                  {
+                    "id" : "https://appleby.io/iiif/assets/bell-x1-150k.usdz",
+                    "type" : "Model"
+                  }
+                ],
+                "transform" : [
+                  {
+                    "y" : 16,
+                    "z" : -13,
+                    "type" : "RotateTransform",
+                    "x" : 5
+                  }
+                ]
+              },
+              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/0"
+            },
+            {
+              "motivation" : [
+                "painting"
+              ],
+              "body" : {
+                "source" : [
+                  {
+                    "id" : "https://appleby.io/iiif/assets/woolly-mammoth-adjusted.usdz",
+                    "type" : "Model"
+                  }
+                ],
+                "transform" : [
+                  {
+                    "z" : -0,
+                    "x" : 0,
+                    "y" : 21,
+                    "type" : "RotateTransform"
+                  }
+                ],
+                "type" : "SpecificResource"
+              },
+              "type" : "Annotation",
+              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/1",
+              "target" : {
+                "selector" : [
+                  {
+                    "type" : "PointSelector",
+                    "x" : 7.5058393478393555,
+                    "z" : -2.3109774589538574,
+                    "y" : -0.31599682569503784
+                  }
+                ],
+                "type" : "SpecificResource",
+                "source" : [
+                  {
+                    "id" : "https://mikeapp.github.io/iiif3d/manifests/B62E1BA2-10F7-4A80-877B-BE5BB0539BB7.json",
+                    "type" : "Scene"
+                  }
+                ]
+              }
+            },
+            {
+              "motivation" : [
+                "painting"
+              ],
+              "type" : "Annotation",
+              "body" : {
+                "source" : [
+                  {
+                    "id" : "https://3d-api.si.edu/content/document/3d_package:789cf90a-4387-4ac1-9e96-c7d6a7b9d26f/resources/gw-150k.usdz",
+                    "type" : "Model"
+                  }
+                ],
+                "transform" : [
+                  {
+                    "y" : 0,
+                    "type" : "RotateTransform",
+                    "z" : -0,
+                    "x" : 0
+                  }
+                ],
+                "type" : "SpecificResource"
+              },
+              "target" : {
+                "type" : "SpecificResource",
+                "source" : [
+                  {
+                    "type" : "Scene",
+                    "id" : "https://mikeapp.github.io/iiif3d/manifests/B62E1BA2-10F7-4A80-877B-BE5BB0539BB7.json"
+                  }
+                ],
+                "selector" : [
+                  {
+                    "x" : 1.1371266841888428,
+                    "z" : -3.5609087944030762,
+                    "y" : 1.7327157258987427,
+                    "type" : "PointSelector"
+                  }
+                ]
+              },
+              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/2"
+            },
+            {
+              "type" : "Annotation",
+              "motivation" : [
+                "painting"
+              ],
+              "body" : {
+                "transform" : [
+                  {
+                    "z" : -170,
+                    "x" : 169,
+                    "type" : "RotateTransform",
+                    "y" : 82
+                  }
+                ],
+                "type" : "SpecificResource",
+                "source" : [
+                  {
+                    "type" : "Model",
+                    "id" : "https://appleby.io/iiif/assets/MetSarc-2023-03.usdz"
+                  }
+                ]
+              },
+              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/3",
+              "target" : {
+                "type" : "SpecificResource",
+                "selector" : [
+                  {
+                    "type" : "PointSelector",
+                    "z" : -2.9020187854766846,
+                    "y" : 1.8120033740997314,
+                    "x" : -0.8681182861328125
+                  }
+                ],
+                "source" : [
+                  {
+                    "id" : "https://mikeapp.github.io/iiif3d/manifests/B62E1BA2-10F7-4A80-877B-BE5BB0539BB7.json",
+                    "type" : "Scene"
+                  }
+                ]
+              }
+            }
+          ],
+          "id" : "https://mikeapp.github.io/iiif3d/manifests/B62E1BA2-10F7-4A80-877B-BE5BB0539BB7/annotationPage1",
+          "type" : "AnnotationPage"
+        }
+      ],
+      "type" : "Scene",
+      "id" : "https://mikeapp.github.io/iiif3d/manifests/B62E1BA2-10F7-4A80-877B-BE5BB0539BB7.json",
+      "label" : {
+        "en" : [
+          "My demo scene"
+        ]
+      }
+    }
+  ],
+  "id" : "https://mikeapp.github.io/iiif3d/manifests/B62E1BA2-10F7-4A80-877B-BE5BB0539BB7.json",
+  "type" : "Manifest"
+}

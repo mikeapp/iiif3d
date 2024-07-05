@@ -1,0 +1,152 @@
+{
+  "items" : [
+    {
+      "type" : "Scene",
+      "label" : {
+        "en" : [
+          "New test scene"
+        ]
+      },
+      "id" : "https://mikeapp.github.io/iiif3d/none3BA9430E-5D39-4D7E-9D99-C4A4FD3F08E8.json",
+      "items" : [
+        {
+          "items" : [
+            {
+              "target" : {
+                "source" : [
+                  {
+                    "id" : "https://mikeapp.github.io/iiif3d/none3BA9430E-5D39-4D7E-9D99-C4A4FD3F08E8.json",
+                    "type" : "Scene"
+                  }
+                ],
+                "type" : "SpecificResource",
+                "selector" : [
+                  {
+                    "y" : 0.87826144695281982,
+                    "z" : -0.8943447470664978,
+                    "type" : "PointSelector",
+                    "x" : -0.35538005828857422
+                  }
+                ]
+              },
+              "type" : "Annotation",
+              "motivation" : [
+                "painting"
+              ],
+              "id" : "https://mikeapp.github.io/iiif3d/none/anno/0",
+              "body" : {
+                "source" : [
+                  {
+                    "id" : "https://3d-api.si.edu/content/document/3d_package:96819943-c693-4a41-ad49-322ed676886d/resources/usnm-214911-dolphin-150k-2048-medium-100k-2048_std.usdz",
+                    "type" : "Model"
+                  }
+                ],
+                "type" : "SpecificResource",
+                "transform" : [
+                  {
+                    "y" : 14,
+                    "x" : 2,
+                    "type" : "RotateTransform",
+                    "z" : -1
+                  }
+                ]
+              }
+            },
+            {
+              "target" : {
+                "selector" : [
+                  {
+                    "x" : 0.078233480453491211,
+                    "y" : 0.95574504137039185,
+                    "type" : "PointSelector",
+                    "z" : -1.2318665981292725
+                  }
+                ],
+                "type" : "SpecificResource",
+                "source" : [
+                  {
+                    "id" : "https://mikeapp.github.io/iiif3d/none3BA9430E-5D39-4D7E-9D99-C4A4FD3F08E8.json",
+                    "type" : "Scene"
+                  }
+                ]
+              },
+              "body" : {
+                "source" : [
+                  {
+                    "id" : "https://3d-api.si.edu/content/document/3d_package:88de08dd-b8ab-470a-b987-ed6fe35def04/resources/figure-of-a-dancer-150k-2048-medium-100k-2048_std.usdz",
+                    "type" : "Model"
+                  }
+                ],
+                "type" : "SpecificResource",
+                "transform" : [
+                  {
+                    "x" : 1,
+                    "y" : 1,
+                    "z" : -0,
+                    "type" : "RotateTransform"
+                  }
+                ]
+              },
+              "id" : "https://mikeapp.github.io/iiif3d/none/anno/1",
+              "type" : "Annotation",
+              "motivation" : [
+                "painting"
+              ]
+            },
+            {
+              "motivation" : [
+                "painting"
+              ],
+              "type" : "Annotation",
+              "body" : {
+                "source" : [
+                  {
+                    "id" : "https://3d-api.si.edu/content/document/3d_package:b0bf6d44-af22-40dc-bd85-7d66255be4a7/resources/blue-crab-150k-2048-medium-100k-2048_std.usdz",
+                    "type" : "Model"
+                  }
+                ],
+                "transform" : [
+                  {
+                    "x" : 0,
+                    "z" : -0,
+                    "type" : "RotateTransform",
+                    "y" : 0
+                  }
+                ],
+                "type" : "SpecificResource"
+              },
+              "id" : "https://mikeapp.github.io/iiif3d/none/anno/2",
+              "target" : {
+                "selector" : [
+                  {
+                    "type" : "PointSelector",
+                    "z" : -1.0554554462432861,
+                    "x" : 0.40205022692680359,
+                    "y" : 0.92109334468841553
+                  }
+                ],
+                "type" : "SpecificResource",
+                "source" : [
+                  {
+                    "type" : "Scene",
+                    "id" : "https://mikeapp.github.io/iiif3d/none3BA9430E-5D39-4D7E-9D99-C4A4FD3F08E8.json"
+                  }
+                ]
+              }
+            }
+          ],
+          "id" : "https://mikeapp.github.io/iiif3d/none3BA9430E-5D39-4D7E-9D99-C4A4FD3F08E8/annotationPage1",
+          "type" : "AnnotationPage"
+        }
+      ]
+    }
+  ],
+  "@context" : "http://iiif.io/api/presentation/4/context.json",
+  "label" : {
+    "en" : [
+      "New test scene"
+    ]
+  },
+  "id" : "https://mikeapp.github.io/iiif3d/none3BA9430E-5D39-4D7E-9D99-C4A4FD3F08E8.json",
+  "type" : "Manifest"
+}

@@ -1,121 +1,25 @@
 {
-  "type" : "Manifest",
   "label" : {
     "en" : [
       "New scene"
     ]
   },
+  "id" : "https://mikeapp.github.io/iiif3d/manifests/847823CC-AE9A-4B1F-A83B-0FBB8FE43873.json",
   "items" : [
     {
       "type" : "Scene",
+      "label" : {
+        "en" : [
+          "New scene"
+        ]
+      },
       "items" : [
         {
           "id" : "https://mikeapp.github.io/iiif3d/manifests/847823CC-AE9A-4B1F-A83B-0FBB8FE43873/annotationPage1",
-          "type" : "AnnotationPage",
           "items" : [
             {
-              "type" : "Annotation",
-              "motivation" : [
-                "painting"
-              ],
-              "target" : {
-                "selector" : [
-                  {
-                    "z" : -1.9601020812988281,
-                    "type" : "PointSelector",
-                    "x" : -3.8753335475921631,
-                    "y" : 1.3922934532165527
-                  }
-                ],
-                "source" : [
-                  {
-                    "type" : "Scene",
-                    "id" : "https://mikeapp.github.io/iiif3d/manifests/847823CC-AE9A-4B1F-A83B-0FBB8FE43873.json"
-                  }
-                ],
-                "type" : "SpecificResource"
-              },
-              "body" : {
-                "transform" : [
-                  {
-                    "type" : "RotateTransform",
-                    "x" : -164,
-                    "z" : 173,
-                    "y" : 81
-                  }
-                ],
-                "type" : "SpecificResource",
-                "source" : [
-                  {
-                    "id" : "https://3d-api.si.edu/content/document/3d_package:341c96cd-f967-4540-8ed1-d3fc56d31f12/resources/woolly-mammoth-150k.usdz",
-                    "type" : "Model"
-                  }
-                ]
-              },
-              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/0"
-            },
-            {
               "body" : {
                 "type" : "SpecificResource",
-                "source" : [
-                  {
-                    "type" : "Model",
-                    "id" : "https://3d-api.si.edu/content/document/3d_package:6c69a6bb-55e6-4356-8725-120ff7f8d652/resources/bell-x1-150k.usdz"
-                  }
-                ],
-                "transform" : [
-                  {
-                    "type" : "RotateTransform",
-                    "x" : 180,
-                    "z" : -180,
-                    "y" : 80
-                  }
-                ]
-              },
-              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/1",
-              "type" : "Annotation",
-              "motivation" : [
-                "painting"
-              ],
-              "target" : {
-                "selector" : [
-                  {
-                    "y" : 5.7265305519104004,
-                    "z" : -7.4663991928100586,
-                    "x" : 0.88513064384460449,
-                    "type" : "PointSelector"
-                  }
-                ],
-                "source" : [
-                  {
-                    "type" : "Scene",
-                    "id" : "https://mikeapp.github.io/iiif3d/manifests/847823CC-AE9A-4B1F-A83B-0FBB8FE43873.json"
-                  }
-                ],
-                "type" : "SpecificResource"
-              }
-            },
-            {
-              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/2",
-              "type" : "Annotation",
-              "target" : {
-                "type" : "SpecificResource",
-                "source" : [
-                  {
-                    "type" : "Scene",
-                    "id" : "https://mikeapp.github.io/iiif3d/manifests/847823CC-AE9A-4B1F-A83B-0FBB8FE43873.json"
-                  }
-                ],
-                "selector" : [
-                  {
-                    "type" : "PointSelector",
-                    "x" : 0.085498727858066559,
-                    "y" : 1.6359400749206543,
-                    "z" : -4.9031968116760254
-                  }
-                ]
-              },
-              "body" : {
                 "source" : [
                   {
                     "type" : "Model",
@@ -124,34 +28,10 @@
                 ],
                 "transform" : [
                   {
-                    "x" : 0,
-                    "y" : -0,
-                    "type" : "RotateTransform",
-                    "z" : -0
-                  }
-                ],
-                "type" : "SpecificResource"
-              },
-              "motivation" : [
-                "painting"
-              ]
-            },
-            {
-              "type" : "Annotation",
-              "body" : {
-                "type" : "SpecificResource",
-                "transform" : [
-                  {
-                    "y" : -0,
-                    "type" : "RotateTransform",
                     "z" : -0,
+                    "y" : 0,
+                    "type" : "RotateTransform",
                     "x" : 0
-                  }
-                ],
-                "source" : [
-                  {
-                    "type" : "Model",
-                    "id" : "https://3d-api.si.edu/content/document/3d_package:88de08dd-b8ab-470a-b987-ed6fe35def04/resources/figure-of-a-dancer-150k-2048-medium-100k-2048_std.usdz"
                   }
                 ]
               },
@@ -165,29 +45,149 @@
                 ],
                 "selector" : [
                   {
-                    "z" : -1.078890323638916,
+                    "y" : 1.244830846786499,
                     "type" : "PointSelector",
-                    "x" : 1.1194711923599243,
-                    "y" : 0.86261755228042603
+                    "x" : 0.019577797502279282,
+                    "z" : -5.311251163482666
+                  }
+                ]
+              },
+              "type" : "Annotation",
+              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/0",
+              "motivation" : [
+                "painting"
+              ]
+            },
+            {
+              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/1",
+              "body" : {
+                "source" : [
+                  {
+                    "id" : "https://3d-api.si.edu/content/document/3d_package:6c69a6bb-55e6-4356-8725-120ff7f8d652/resources/bell-x1-150k.usdz",
+                    "type" : "Model"
+                  }
+                ],
+                "transform" : [
+                  {
+                    "x" : -14,
+                    "type" : "RotateTransform",
+                    "y" : 71,
+                    "z" : 21
+                  }
+                ],
+                "type" : "SpecificResource"
+              },
+              "type" : "Annotation",
+              "target" : {
+                "type" : "SpecificResource",
+                "source" : [
+                  {
+                    "id" : "https://mikeapp.github.io/iiif3d/manifests/847823CC-AE9A-4B1F-A83B-0FBB8FE43873.json",
+                    "type" : "Scene"
+                  }
+                ],
+                "selector" : [
+                  {
+                    "z" : -7.9558157920837402,
+                    "type" : "PointSelector",
+                    "x" : 0.28202095627784729,
+                    "y" : 5.978003978729248
                   }
                 ]
               },
               "motivation" : [
                 "painting"
+              ]
+            },
+            {
+              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/2",
+              "type" : "Annotation",
+              "motivation" : [
+                "painting"
               ],
-              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/3"
+              "body" : {
+                "type" : "SpecificResource",
+                "source" : [
+                  {
+                    "type" : "Model",
+                    "id" : "https://3d-api.si.edu/content/document/3d_package:341c96cd-f967-4540-8ed1-d3fc56d31f12/resources/woolly-mammoth-150k.usdz"
+                  }
+                ],
+                "transform" : [
+                  {
+                    "y" : 81,
+                    "z" : 173,
+                    "x" : -164,
+                    "type" : "RotateTransform"
+                  }
+                ]
+              },
+              "target" : {
+                "type" : "SpecificResource",
+                "selector" : [
+                  {
+                    "z" : -1.9601020812988281,
+                    "type" : "PointSelector",
+                    "x" : -3.8753335475921631,
+                    "y" : 1.3922934532165527
+                  }
+                ],
+                "source" : [
+                  {
+                    "type" : "Scene",
+                    "id" : "https://mikeapp.github.io/iiif3d/manifests/847823CC-AE9A-4B1F-A83B-0FBB8FE43873.json"
+                  }
+                ]
+              }
+            },
+            {
+              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/3",
+              "motivation" : [
+                "painting"
+              ],
+              "target" : {
+                "type" : "SpecificResource",
+                "selector" : [
+                  {
+                    "type" : "PointSelector",
+                    "y" : 0.86261755228042603,
+                    "z" : -1.078890323638916,
+                    "x" : 1.1194711923599243
+                  }
+                ],
+                "source" : [
+                  {
+                    "id" : "https://mikeapp.github.io/iiif3d/manifests/847823CC-AE9A-4B1F-A83B-0FBB8FE43873.json",
+                    "type" : "Scene"
+                  }
+                ]
+              },
+              "type" : "Annotation",
+              "body" : {
+                "type" : "SpecificResource",
+                "transform" : [
+                  {
+                    "type" : "RotateTransform",
+                    "y" : 0,
+                    "z" : -0,
+                    "x" : 0
+                  }
+                ],
+                "source" : [
+                  {
+                    "id" : "https://3d-api.si.edu/content/document/3d_package:88de08dd-b8ab-470a-b987-ed6fe35def04/resources/figure-of-a-dancer-150k-2048-medium-100k-2048_std.usdz",
+                    "type" : "Model"
+                  }
+                ]
+              }
             }
-          ]
+          ],
+          "type" : "AnnotationPage"
         }
       ],
-      "label" : {
-        "en" : [
-          "New scene"
-        ]
-      },
       "id" : "https://mikeapp.github.io/iiif3d/manifests/847823CC-AE9A-4B1F-A83B-0FBB8FE43873.json"
     }
   ],
-  "@context" : "http://iiif.io/api/presentation/4/context.json",
-  "id" : "https://mikeapp.github.io/iiif3d/manifests/847823CC-AE9A-4B1F-A83B-0FBB8FE43873.json"
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/4/context.json"
 }

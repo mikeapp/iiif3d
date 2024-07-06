@@ -1,27 +1,47 @@
 {
   "@context" : "http://iiif.io/api/presentation/4/context.json",
-  "type" : "Manifest",
+  "label" : {
+    "en" : [
+      "New scene"
+    ]
+  },
   "id" : "https://mikeapp.github.io/iiif3d/manifests/847823CC-AE9A-4B1F-A83B-0FBB8FE43873.json",
+  "type" : "Manifest",
   "items" : [
     {
       "id" : "https://mikeapp.github.io/iiif3d/manifests/847823CC-AE9A-4B1F-A83B-0FBB8FE43873.json",
-      "label" : {
-        "en" : [
-          "New scene"
-        ]
-      },
       "type" : "Scene",
       "items" : [
         {
           "items" : [
             {
+              "motivation" : [
+                "painting"
+              ],
+              "body" : {
+                "type" : "SpecificResource",
+                "transform" : [
+                  {
+                    "y" : 71,
+                    "x" : -14,
+                    "z" : 21,
+                    "type" : "RotateTransform"
+                  }
+                ],
+                "source" : [
+                  {
+                    "type" : "Model",
+                    "id" : "https://3d-api.si.edu/content/document/3d_package:6c69a6bb-55e6-4356-8725-120ff7f8d652/resources/bell-x1-150k.usdz"
+                  }
+                ]
+              },
               "target" : {
                 "selector" : [
                   {
                     "type" : "PointSelector",
                     "z" : -7.9558157920837402,
-                    "x" : 0.28202095627784729,
-                    "y" : 5.978003978729248
+                    "y" : 5.978003978729248,
+                    "x" : 0.28202095627784729
                   }
                 ],
                 "source" : [
@@ -32,72 +52,51 @@
                 ],
                 "type" : "SpecificResource"
               },
+              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/0",
+              "type" : "Annotation"
+            },
+            {
+              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/1",
               "motivation" : [
                 "painting"
               ],
-              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/0",
-              "type" : "Annotation",
-              "body" : {
+              "target" : {
+                "selector" : [
+                  {
+                    "y" : 1.4127745628356934,
+                    "type" : "PointSelector",
+                    "x" : -3.1849734783172607,
+                    "z" : -2.2451140880584717
+                  }
+                ],
                 "source" : [
                   {
-                    "id" : "https://3d-api.si.edu/content/document/3d_package:6c69a6bb-55e6-4356-8725-120ff7f8d652/resources/bell-x1-150k.usdz",
+                    "type" : "Scene",
+                    "id" : "https://mikeapp.github.io/iiif3d/manifests/847823CC-AE9A-4B1F-A83B-0FBB8FE43873.json"
+                  }
+                ],
+                "type" : "SpecificResource"
+              },
+              "type" : "Annotation",
+              "body" : {
+                "type" : "SpecificResource",
+                "source" : [
+                  {
+                    "id" : "https://3d-api.si.edu/content/document/3d_package:341c96cd-f967-4540-8ed1-d3fc56d31f12/resources/woolly-mammoth-150k.usdz",
                     "type" : "Model"
                   }
                 ],
                 "transform" : [
                   {
-                    "z" : 21,
-                    "x" : -14,
-                    "y" : 71,
-                    "type" : "RotateTransform"
-                  }
-                ],
-                "type" : "SpecificResource"
-              }
-            },
-            {
-              "target" : {
-                "selector" : [
-                  {
-                    "type" : "PointSelector",
-                    "z" : -1.9306192398071289,
-                    "x" : -4.2387657165527344,
-                    "y" : 1.5772746801376343
-                  }
-                ],
-                "type" : "SpecificResource",
-                "source" : [
-                  {
-                    "type" : "Scene",
-                    "id" : "https://mikeapp.github.io/iiif3d/manifests/847823CC-AE9A-4B1F-A83B-0FBB8FE43873.json"
+                    "y" : 51,
+                    "z" : -3,
+                    "type" : "RotateTransform",
+                    "x" : -8
                   }
                 ]
-              },
-              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/1",
-              "type" : "Annotation",
-              "motivation" : [
-                "painting"
-              ],
-              "body" : {
-                "source" : [
-                  {
-                    "type" : "Model",
-                    "id" : "https://3d-api.si.edu/content/document/3d_package:341c96cd-f967-4540-8ed1-d3fc56d31f12/resources/woolly-mammoth-150k.usdz"
-                  }
-                ],
-                "transform" : [
-                  {
-                    "type" : "RotateTransform",
-                    "x" : 180,
-                    "z" : -180,
-                    "y" : -67
-                  }
-                ],
-                "type" : "SpecificResource"
               }
             },
             {
-              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/2",
               "body" : {
                 "source" : [
                   {
@@ -107,58 +106,38 @@
                 ],
                 "transform" : [
                   {
-                    "x" : 0,
                     "y" : 0,
+                    "z" : -0,
                     "type" : "RotateTransform",
-                    "z" : -0
+                    "x" : 0
                   }
                 ],
                 "type" : "SpecificResource"
               },
+              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/2",
+              "type" : "Annotation",
+              "motivation" : [
+                "painting"
+              ],
               "target" : {
+                "selector" : [
+                  {
+                    "type" : "PointSelector",
+                    "y" : 1.244830846786499,
+                    "x" : 0.019577797502279282,
+                    "z" : -5.311251163482666
+                  }
+                ],
+                "type" : "SpecificResource",
                 "source" : [
                   {
                     "id" : "https://mikeapp.github.io/iiif3d/manifests/847823CC-AE9A-4B1F-A83B-0FBB8FE43873.json",
                     "type" : "Scene"
                   }
-                ],
-                "type" : "SpecificResource",
-                "selector" : [
-                  {
-                    "type" : "PointSelector",
-                    "y" : 1.244830846786499,
-                    "z" : -5.311251163482666,
-                    "x" : 0.019577797502279282
-                  }
                 ]
-              },
-              "motivation" : [
-                "painting"
-              ],
-              "type" : "Annotation"
+              }
             },
             {
-              "target" : {
-                "selector" : [
-                  {
-                    "type" : "PointSelector",
-                    "y" : 0.86261755228042603,
-                    "x" : 1.1194711923599243,
-                    "z" : -1.078890323638916
-                  }
-                ],
-                "source" : [
-                  {
-                    "type" : "Scene",
-                    "id" : "https://mikeapp.github.io/iiif3d/manifests/847823CC-AE9A-4B1F-A83B-0FBB8FE43873.json"
-                  }
-                ],
-                "type" : "SpecificResource"
-              },
-              "motivation" : [
-                "painting"
-              ],
-              "type" : "Annotation",
               "body" : {
                 "type" : "SpecificResource",
                 "source" : [
@@ -169,25 +148,46 @@
                 ],
                 "transform" : [
                   {
+                    "x" : 0,
                     "y" : 0,
                     "type" : "RotateTransform",
-                    "z" : -0,
-                    "x" : 0
+                    "z" : -0
                   }
                 ]
               },
-              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/3"
+              "target" : {
+                "type" : "SpecificResource",
+                "source" : [
+                  {
+                    "type" : "Scene",
+                    "id" : "https://mikeapp.github.io/iiif3d/manifests/847823CC-AE9A-4B1F-A83B-0FBB8FE43873.json"
+                  }
+                ],
+                "selector" : [
+                  {
+                    "x" : 1.1194711923599243,
+                    "y" : 0.86261755228042603,
+                    "type" : "PointSelector",
+                    "z" : -1.078890323638916
+                  }
+                ]
+              },
+              "motivation" : [
+                "painting"
+              ],
+              "id" : "https://mikeapp.github.io/iiif3d/manifests//anno/3",
+              "type" : "Annotation"
             }
           ],
-          "id" : "https://mikeapp.github.io/iiif3d/manifests/847823CC-AE9A-4B1F-A83B-0FBB8FE43873/annotationPage1",
-          "type" : "AnnotationPage"
+          "type" : "AnnotationPage",
+          "id" : "https://mikeapp.github.io/iiif3d/manifests/847823CC-AE9A-4B1F-A83B-0FBB8FE43873/annotationPage1"
         }
-      ]
+      ],
+      "label" : {
+        "en" : [
+          "New scene"
+        ]
+      }
     }
-  ],
-  "label" : {
-    "en" : [
-      "New scene"
-    ]
-  }
+  ]
 }
